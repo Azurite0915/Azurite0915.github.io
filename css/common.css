@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+
+/* reset, common ========================================== */
+*{margin: 0; padding: 0;}
+a{color: #000; text-decoration: none;}
+li{list-style: none;}
+em{font-style: normal;}
+button{border: none; outline: none; background: none; cursor: pointer;}
+.blind{position: absolute; left: -9999px; font-size: 0;}
+.container{position: relative; max-width: 1200px; margin: auto;}
+.row::after{content: ''; display: block; overflow: hidden; clear: both;}
+
+
+/* sprites & icon ========================================== */
+.sp{
+   display: inline-block;
+   background: url(../img/scott_sprite_pc.png) no-repeat;
+}
+.sp-logo-main{width: 220px; height: 44px; background-position: 0 0;}
+.sp-search-open{width: 40px; height: 40px; background-position: -270px 0;}
+.sp-search-close{width: 40px; height: 40px; background-position: -330px 0;}
+.sp-search-inner{width: 20px; height: 20px; background-position: -390px 0;}
+.sp-search-store{width: 20px; height: 20px; background-position: -440px 0;}
+.sp-popular{width: 84px; height: 52px; background-position: -490px 0;}
+.sp-sitemap-symbol{width: 30px; height: 40px; background-position: -610px 0;}
+.sp-close-box{width: 30px; height: 30px; background-position: -680px 0;}
+.sp-global-header{width: 16px; height: 16px; background-position: -740px 0;}
+.sp-global-sitemap{width: 16px; height: 16px; background-position: -780px 0;}
+.sp-newdealer{width: 86px; height: 34px; background-position: -830px 0;}
+.sp-tooltip-instagram{width: 102px; height: 50px; background-position: -960px 0;}
+.sp-tooltip-facebook{width: 102px; height: 50px; background-position: -1080px 0;}
+.sp-tooltip-blog{width: 102px; height: 50px; background-position: -1200px 0;}
+.sp-logo-sitemap{width: 200px; height: 40px; background-position: 0 -70px;}
+.sp-play{width: 100px; height: 100px; background-position: -270px -70px;}
+.sp-slide-prev{width: 55px; height: 100px; background-position: -440px -70px;}
+.sp-slide-next{width: 55px; height: 100px; background-position: -550px -70px;}
+.sp-product-prev{width: 20px; height: 36px; background-position: -640px -70px;}
+.sp-product-next{width: 20px; height: 36px; background-position: -690px -70px;}
+.sp-location{width: 44px; height: 60px; background-position: -760px -70px;}
+.sp-logo-footer{width: 230px; height: 146px; background-position: 0 -140px;}
+.sp-instagram{width: 40px; height: 40px; background-position: -270px -220px;}
+.sp-facebook{width: 40px; height: 40px; background-position: -330px -220px;}
+.sp-blog{width: 40px; height: 40px; background-position: -390px -220px;}
+.sp-btntop-base{width: 80px; height: 80px; background-position: -480px -200px;}
+.sp-btntop-hover{width: 80px; height: 80px; background-position: -590px -200px;}
+.sp-tdf{width: 120px; height: 90px; background-position: -700px -200px;}
+.sp-bg-map{width: 266px; height: 400px; background-position: -900px -160px;}
+.sp-quick-switch{width: 34px; height: 120px; background-position: 0 -330px;}
+.sp-quick-arrow-switch{width: 16px; height: 30px; background-position: -80px -330px;}
+.sp-quick-recent{width: 64px; height: 47px; background-position: -150px -330px;}
+.sp-quick-service{width: 54px; height: 58px; background-position: -240px -330px;}
+.sp-quick-store{width: 60px; height: 56px; background-position: -320px -330px;}
+.sp-quick-sign{width: 58px; height: 58px; background-position: -400px -330px;}
+.sp-quick-top{width: 80px; height: 54px; background-position: -490px -330px;}
+.sp-quick-arrow-prev{width: 34px; height: 20px; background-position: -150px -420px;}
+.sp-quick-arrow-next{width: 34px; height: 20px; background-position: -200px -420px;}
+.sp-syncros{width: 210px; height: 83px; background-position: -650px -350px;}
+.sp-carbon{width: 378px; height: 156px; background-position: -320px -460px;}
+
+
+body{
+   /* overflow-x: hidden; */
+   overflow-y: auto;
+}
+
+
+
+/* header ========================================== */
+
+header{
+   
+}
+header h1{
+   
+}
+header #btn-menu{
+
+}
+
+/* header - 화면 스크롤 조작 발생 시 */
+.scroll header{height: 60px;}
+.scroll header::after{display: none;}
+.scroll header h1{
+   top: 7px;
+   transform: scale(0.7);
+}
+.scroll header #search-open{
+   top: 10px;
+   transform: scale(0.7);
+}
+.scroll header .popup-search{top: 60px;}
+.scroll header .popup-search::after{
+   right: 25px; top: -15px;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 15px solid rgba(120, 129, 148, 0.9);
+}
+.scroll header nav .gnb{
+   margin: 26px 0 0 70px; 
+}
+.scroll header nav .gnb > li > a{
+   font-size: 18px;
+   font-weight: 600;
+}
+.scroll header nav .gnb > li:nth-child(5) > a > i.sp-newdealer{
+   position: absolute;
+   left: 50%; top: -29px;
+   transform: translateX(-50%) scale(0.7);
+}
+.scroll header nav .gnb > li > .gnb-menu-wrap{top: 60px;}
+.scroll header .gnb-bg{top: 60px;}
+.scroll header nav .global-header, .scroll header nav .util{display: none;}
+
+
+
+/* section ========================================== */
+
+section{padding-top: 130px;}
+.scroll section{padding-top: 60px;}
+section > h2{display: none;}
+
+
+
+/* footer ========================================== */
+
+footer{background: #000;}
+
+
+
+/* popup ========================================== */
+
+
+
+
+/* animations ========================================== */
+
+/* promo-movie h2 */
+@keyframes movie-title{
+   0%{opacity: 0; transform: scaleX(0);}
+   100%{opacity: 1; transform: scaleX(1);}
+}
+
+/* promo-movie iframe */
+@keyframes movie-opacity{
+   0%{opacity: 0;}
+   100%{opacity: 1;}
+}
+
+/* syncntech-wrap h2 */
+@keyframes syncntech-title{
+   0%{opacity: 0; transform: scaleY(0);}
+   100%{opacity: 1; transform: scaleY(1);}
+}
+/* syncntech opacity-fadein/fadeout */
+@keyframes syncntech-opacity-fadein{
+   0%{opacity: 0;}
+   100%{opacity: 1;}
+}
+@keyframes syncntech-opacity-fadeout{
+   0%{opacity: 1;}
+   100%{opacity: 0;}
+}
