@@ -83,14 +83,14 @@ header h1{
 }
 header nav{
    float: right;
-
-}
-header nav ul{
-
+   margin: 40px 70px 0 0;
 }
 header nav ul li{
    float: left;
-   margin-right: 20px;
+   margin-right: 30px;
+}
+header nav ul li:last-child{
+   margin-right: 0;
 }
 header nav ul li a{
    color: #000;
