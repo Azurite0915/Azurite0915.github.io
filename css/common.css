@@ -69,13 +69,26 @@ body{
 /* header ========================================== */
 
 header{
-   
+   overflow: hidden;
+   background: cornflowerblue;
+   height: 80px;
 }
 header h1{
-   
+   float: left;
+   padding-left: 30px;
+   color: #fff;
+   line-height: 80px;
+   font-size: 30px;
+   font-weight: 700;
 }
-header #btn-menu{
+header nav{
 
+}
+header nav ul{
+
+}
+header nav ul li{
+   float: left;
 }
 
 /* header - 화면 스크롤 조작 발생 시 */
