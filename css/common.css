@@ -83,11 +83,12 @@ header h1{
 }
 header nav{
    float: right;
-   margin: 40px 70px 0 0;
+   margin-right: 80px;
 }
 header nav ul li{
    float: left;
-   margin-right: 30px;
+   margin-right: 40px;
+   line-height: 80px;
 }
 header nav ul li:last-child{
    margin-right: 0;
@@ -96,6 +97,7 @@ header nav ul li a{
    color: #000;
    font-size: 18px;
    font-weight: 600;
+   text-transform: uppercase;
 }
 
 /* header - 화면 스크롤 조작 발생 시 */
