@@ -121,7 +121,7 @@ body{overflow-y: auto;}
    margin-bottom: 20px;
 }
 .about-wrap .mystory p{
-   line-height: 16px;
+   line-height: 20px;
 }
 .mystory-first,.mystory-second,.mystory-third{
    margin: 0 auto;
@@ -454,7 +454,7 @@ footer .contact-wrap ul li span i{
       color: #dad5fc;
    }
    .about-wrap .mystory p{
-      line-height: 20px;
+      line-height: 22px;
    }
    
    .mystory-first,.mystory-second,.mystory-third{
