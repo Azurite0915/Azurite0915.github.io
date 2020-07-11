@@ -49,7 +49,7 @@
    font-size: 26px;
 }
 
-.morebutton,.morebutton .scrolldown,.morebutton .more{
+.morebutton .scrolldown,.morebutton .more{
    opacity: 1;
 }
 .morebutton{
@@ -204,6 +204,10 @@
 @keyframes fadeIn-mC{
    0%{transform: translate(-50%, 80px); opacity: 0;}
    100%{transform: translate(-50%, 0); opacity: 1;}
+}
+
+.main-symbol i{
+   animation: shine 1s linear infinite;
 }
 
 

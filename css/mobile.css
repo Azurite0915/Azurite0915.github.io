@@ -63,7 +63,7 @@ body{overflow-y: auto;}
    font-size: 18px;
 }
 
-.morebutton,.morebutton .scrolldown,.morebutton .more{
+.morebutton .scrolldown,.morebutton .more{
    opacity: 1;
 }
 .morebutton{
@@ -291,6 +291,10 @@ footer .contact-wrap ul li span i{
 @keyframes fadeIn-mC{
    0%{transform: translate(-50%, 50px); opacity: 0;}
    100%{transform: translate(-50%, 0); opacity: 1;}
+}
+
+.main-symbol i{
+   animation: shine 1s linear infinite;
 }
 
 

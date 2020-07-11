@@ -48,10 +48,10 @@ $(function(){
          var delay=0;
          $('#works .action').each(function(i, el){
             if(i==0){delay=0;}
-            if(i==1){delay=350;}
-            if(i==2){delay=550;}
-            if(i==3){delay=750;}
-            if(i==4){delay=950;}
+            if(i==1){delay=250;}
+            if(i==2){delay=450;}
+            if(i==3){delay=650;}
+            if(i==4){delay=850;}
             setTimeout(function(){
                $(el).addClass('on');
             }, delay);
