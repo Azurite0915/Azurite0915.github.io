@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-/* 폰트 - 나눔고딕 */
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean');
-/* 400: regular, 700: bold, 800: extra-bold */
+/* 폰트 - Sunflower, Gaegu */
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
 
 @import url(reset.css);
 @import url(common.css);

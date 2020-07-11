@@ -30,11 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: '나눔고딕', 'NanumGothic';
 }
 ol, ul {
 	list-style: none;
-	font-family: '나눔고딕', 'NanumGothic';
 }
 blockquote, q {
 	quotes: none;
@@ -47,12 +45,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	font-family: '나눔고딕', 'NanumGothic';
 }
 a{
    text-decoration: none;
-   color:#000; 
-	font-family: '나눔고딕', 'NanumGothic';  
+   color:#000;  
 }
 button{
 	outline: none;
@@ -60,10 +56,8 @@ button{
 	border:0;
 	padding: 0;
 	background: none;
-	font-family: '나눔고딕', 'NanumGothic';
 }
 input{
 	border: 0;
 	padding: 0;
-	font-family: '나눔고딕', 'NanumGothic';
 }
